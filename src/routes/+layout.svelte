@@ -12,17 +12,16 @@ console.log();
 
 </script>
 
-<div class="flex flex-row">
+<div class="flex flex-row relative">
 
+  <Sidebar data={data}/>
 
-  <div class="grow">
+  <div class="grow min-h-screen">
     <Navbar/>
-    <slot/>
+    <div class="p-4">
+      <slot/>
+
+    </div>
   </div>
-
-  
-<Sidebar data={data}/>
-
-
 
 </div>

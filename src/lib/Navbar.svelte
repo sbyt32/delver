@@ -6,8 +6,7 @@ console.log();
 </script>
 
 <div class="gap-1 navbar bg-base-300 ">
-  <div class="flex-1"></div>
-  <ul class="menu menu-horizontal">
+  <ul class="menu menu-horizontal navbar-start">
     <li><a href="/">Home</a></li>
     <li><a href="/">asd</a></li>
     <li><a href="/">asd</a></li>
